@@ -1,0 +1,184 @@
+<!-- Full Page Intro -->
+
+<div class="view full-page-intro heroImg">
+
+  <!-- Mask & flexbox options-->
+  <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+    <!-- Content -->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="row wow fadeIn mt-5">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4 white-text text-center text-md-left">
+          <div class="container containerLeft">
+            <div class="innerContainer">
+              <h1 class="display-4 font-weight-bold">Bienvenidos al <br> Banco Karan</h1>
+
+              <hr class="hr-light">
+
+              <p class="mb-4 d-md-block">
+                <strong>Aca creamos una descripcion de nuestro banco.</strong>
+              </p>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 col-xl-5 mb-4">
+
+          <!--Card-->
+          <div class="card card-Karan-Register">
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!-- Form -->
+              <form [formGroup]="registerForm" >
+                <!-- Heading -->
+                <h3 class="dark-grey-text text-center">
+                  <strong>Empieza con nosotros</strong>
+                </h3>
+                <hr>
+                <!--Inputs-->
+                <div class="md-form">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" formControlName="user" class="form-control" mdbInput placeholder="Usuario">
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-lock prefix grey-text"></i>
+                  <input type="password" formControlName="password" class="form-control" mdbInput placeholder="Clave">
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="md-form name_Last">
+                      <i class="fas fa-user prefix grey-text"></i>
+                      <input type="text" formControlName="name" class="form-control" mdbInput placeholder="Nombre">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="md-form name_Last">
+                      <i class="fas fa-user prefix grey-text"></i>
+                      <input type="text" formControlName="lastName" class="form-control" mdbInput placeholder="Apellido">
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="md-form">
+                  <i class="fas fa-address-card prefix grey-text"></i>
+                  <input type="text" formControlName="dni" class="form-control" mdbInput placeholder="Cédula">
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="email" formControlName="email" class="form-control" mdbInput placeholder="Correo">
+                </div>
+                <div class="form-check align-middle">
+                  <div class="row">
+                    <div class="col-2 offset-2">
+                      <input type="checkbox" formControlName="juridica" class="checkboxReg form-control" mdbInput>
+                    </div>
+                    <div class="col-6 grey-text d-flex align-content-center">
+                      ¿Es cuenta juridica?
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center" style="margin-top: 1rem">
+                  <button class="btn buttonKaranPrimary" (click)="registrarUsuario()">Registrarse</button>
+                </div>
+
+              </form>
+              <!-- Form -->
+
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+    <!-- Content -->
+
+  </div>
+  <!-- Mask & flexbox options-->
+
+</div>
+<!-- Full Page Intro -->
+
+<!--Main layout-->
+<main class="sectionConocenos">
+  <div class="container">
+
+<!--    <hr class="my-5">-->
+
+    <!--Section: Conocenos-->
+    <section>
+      <div class="separator"></div>
+      <h1 class="h1 text-center font-weight-bold titleSection">Conocenos</h1>
+      <div class="separator"></div>
+
+      <!--Grid row-->
+      <div class="row">
+        <div class="col-12">
+          <div class="card w-100 cartaConocenos">
+
+            <div class="row">
+              <div class="col-7">
+                <h2>Misión</h2>
+                <hr>
+                <p class="">Brindar productos y servicios financieros con valor agregado para nuestros clientes, otorgando
+                  atención personalizada y efectiva por parte de nuestro recurso humano, asegurando permanencia,
+                  lealtad y rentabilidad a largo plazo y reforzando nuestro compromiso con los clientes.</p>
+              </div>
+              <div class="col-4 offset-1">
+                <img src="/assets/img/mission-ilustration.png" class="img-fluid">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card w-100 cartaConocenos">
+
+            <div class="row">
+              <div class="col-4">
+                <img src="/assets/img/vision-ilustration.png" class="img-fluid">
+              </div>
+              <div class="col-7 offset-1">
+                <h2 class="d-flex justify-content-end">Visión</h2>
+                <hr>
+                <p class="">Brindar productos y servicios financieros con valor agregado para nuestros clientes, otorgando
+                  atención personalizada y efectiva por parte de nuestro recurso humano, asegurando permanencia,
+                  lealtad y rentabilidad a largo plazo y reforzando nuestro compromiso con los clientes.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <!--/Grid row-->
+
+    </section>
+    <!--/Section: Conocenos-->
+
+  </div>
+</main>
+<!--/Main layout-->

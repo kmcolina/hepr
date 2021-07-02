@@ -1,0 +1,28 @@
+<div class="modal-content">
+  <div class="modal-header text-center">
+    <h4 class="modal-title w-100 font-weight-bold">Acceda a su cuenta</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form [formGroup]="loginForm" class="p-4">
+      <!-- Material input email -->
+      <div class="md-form">
+        <i class="far fa-envelope  prefix grey-text"></i>
+        <input type="email" formControlName="mail" class="form-control" mdbInput placeholder="Correo">
+      </div>
+      <!-- Material input password -->
+      <div class="md-form">
+        <i class="fas fa-lock  prefix grey-text"></i>
+        <input type="password" formControlName="password" class="form-control" mdbInput placeholder="Contraseña">
+      </div>
+
+      <!-- Button-->
+      <div class="text-center py-4 mt-3 ">
+        <button class="btn buttonKaranPrimary w-50">Iniciar Sesión</button>
+      </div>
+    </form>
+  </div>
+</div>
+

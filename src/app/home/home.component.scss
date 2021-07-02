@@ -1,0 +1,90 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+//.top-nav-collapse {
+//  background-color: #1C2331; }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #343434; }
+
+full-page-intro {
+  height: 100vh !important;
+}
+
+.heroImg {
+  background-image: url('/assets/img/fondoHero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh
+}
+
+
+.checkboxReg {
+  width: 25px;
+  padding: 0;
+  height: 25px;
+}
+
+.containerLeft {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.innerContainer {
+  width: 100%;
+  align-self: center;
+}
+
+.name_Last {
+  margin: 0;
+}
+
+.cartaConocenos{
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.3);
+  border-color: #707070;
+  //opacity: 30%;
+  padding: 2.5rem;
+
+  h2, p {
+    text-align: justify;
+    color: #707070;
+  }
+}
+
+.titleSection {
+  color: #707070;
+}
+
+.sectionConocenos{
+  background: rgb(255,255,255);
+  background: linear-gradient(
+      326deg
+    , rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(192,248,227,1) 32%, rgba(193,248,228,1)
+    64%, rgba(206,250,233,1) 100%, rgba(255,255,255,1) 100%);
+}
+

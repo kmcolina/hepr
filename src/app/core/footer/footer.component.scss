@@ -1,0 +1,23 @@
+.footer-page {
+  background-color: #343434;
+  color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.brand-logoFooter{
+  max-height: 50px;
+}
+
+.leftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  >p {
+    margin: 0;
+  }
+}
